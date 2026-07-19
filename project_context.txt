@@ -1,0 +1,22 @@
+project_name: care_mm
+domain: computational gastroenterology, multimodal gastric-cancer diagnosis and management triage
+framework: PyTorch 2.3.1 with torch.nn
+venue: npj Digital Medicine
+supplementary_material: embedded in the 20-page paper
+primary_private_cohort: 9529 patients across prospective and retrospective arms
+prospective_arm: 2098 patients, four facilities, three regions
+retrospective_arm: 7431 patients
+public_auxiliary_data: GasHisSDB, HMU-GC-HE-30K, HyperKvasir, Endo-FM sources
+architecture: 512-dimensional fusion, four layers, eight heads
+optimizer: AdamW
+learning_rate: 0.0001
+epochs: 50
+conformal_miscoverage: 0.10
+false_negative_to_false_positive_cost: 10 to 1
+compute: not reported
+batch_size: not reported
+weight_decay: not reported
+warmup: not reported
+precision: not reported
+gradient_clipping: not reported
+

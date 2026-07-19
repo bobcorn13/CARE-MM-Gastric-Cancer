@@ -1,0 +1,4 @@
+No intentional scientific deviations are encoded.
+The manuscript does not report batch size, weight decay, warmup, precision, gradient clipping, GPU model, GPU count, storage, or wall-clock time. These values are not invented. Runtime validation requires explicit local values before training.
+The manuscript identifies foundation-model families but does not specify exact weight artifact identifiers. The package accepts frozen feature tensors and records their source, version, and SHA-256 digest.
+

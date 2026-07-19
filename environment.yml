@@ -1,0 +1,18 @@
+name: care-mm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10.14
+  - pytorch=2.3.1
+  - pytorch-cuda=12.1
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.13.1
+  - scikit-learn=1.5.0
+  - pyyaml=6.0.1
+  - pillow=10.3.0
+  - h5py=3.11.0
+  - tqdm=4.66.4
+

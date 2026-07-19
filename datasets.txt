@@ -1,0 +1,5 @@
+GasHisSDB | public | license not stated by canonical record | https://doi.org/10.1016/j.compbiomed.2021.105207
+HMU-GC-HE-30K | public | CC BY 4.0 | https://doi.org/10.6084/m9.figshare.25954813
+HyperKvasir | public | CC BY 4.0 | https://doi.org/10.17605/OSF.IO/MH9SJ
+Endo-FM | mixed public and restricted corpora | source-specific terms | https://github.com/med-air/Endo-FM
+

@@ -1,0 +1,12 @@
+Eq. 1 | code/care_mm/fusion/gate.py | masked-softmax modality attention and renormalization
+Eq. 2 | code/care_mm/cohort/availability.py | care-setting availability sampling objective
+Algorithm 1 | code/care_mm/learning and code/care_mm/cohort | frozen-encoder curriculum training and temperature fitting
+Algorithm 2 | code/care_mm/calibration and code/care_mm/decision | mask-conditional conformal sets and expected-cost routing
+Algorithm 3 | code/care_mm/fusion/system.py | encode, fuse, calibrate, and route composition
+Table 1 | code/care_mm/analysis/discrimination.py | diagnostic comparison metrics and confidence intervals
+Table 2 | code/care_mm/fusion/ablations.py | zero, mean, gate, curriculum, and conformal ablations
+Table 3 | code/care_mm/analysis/experiments.py | per-site and per-setting analyses
+Supplementary Table S1 | code/care_mm/analysis/subgroups.py | subgroup AUROC and maximum gaps
+Supplementary Table S2 | code/care_mm/analysis/safety.py and deployment.py | safety axes and monitoring
+Supplementary Table S3 | code/care_mm/analysis/deployment.py and off_policy.py | silent deployment and policy estimates
+
